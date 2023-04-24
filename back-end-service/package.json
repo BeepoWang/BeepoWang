@@ -5,7 +5,8 @@
   "author": "wangtao",
   "main": "app.ts",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/app.ts"
+    "dev": "ts-node-dev --respawn src/app.ts",
+    "build": "tsc --noEmit  && node ./dist/src/app.js"
   },
   "keywords": [],
   "license": "ISC",
