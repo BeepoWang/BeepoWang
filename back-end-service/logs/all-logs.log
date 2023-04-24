@@ -1,0 +1,12 @@
+[2023-04-24T15:41:08.344] [INFO] info - <==== log start ====>
+[2023-04-24T15:41:08.345] [INFO] info - url:"/api/logi?name=ssdf&pwd=sdfsfs"
+[2023-04-24T15:41:08.346] [INFO] info - method:"GET"
+[2023-04-24T15:41:08.348] [INFO] info - get params:{"name":"ssdf","pwd":"sdfsfs"}
+[2023-04-24T15:41:08.349] [INFO] info - post params:undefined
+[2023-04-24T15:41:08.349] [INFO] info - <==== log end ====>
+[2023-04-24T16:11:49.740] [INFO] info - <==== log start ====>
+[2023-04-24T16:11:49.741] [INFO] info - url:"/api/logi?name=ssdf&pwd=sdfsfs"
+[2023-04-24T16:11:49.741] [INFO] info - method:"GET"
+[2023-04-24T16:11:49.742] [INFO] info - get params:{"name":"ssdf","pwd":"sdfsfs"}
+[2023-04-24T16:11:49.743] [INFO] info - post params:undefined
+[2023-04-24T16:11:49.744] [INFO] info - <==== log end ====>
