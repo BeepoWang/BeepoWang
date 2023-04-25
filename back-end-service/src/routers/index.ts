@@ -6,7 +6,7 @@ import { resolve } from 'path';
 const registerRouter = () => {
 
   const routers: any[] = [];
-  glob.sync(resolve(__dirname, './', '**/*.ts'))
+  glob.sync(resolve(__dirname, './v1', '**/*.ts'))
     .filter((value: string | string[]) => (value.indexOf('index') === -1))
     .map((router: string) => {
       console.log('router', router);

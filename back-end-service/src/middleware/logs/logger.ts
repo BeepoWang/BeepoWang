@@ -24,8 +24,8 @@ log4js.configure({
   },
   categories: {
     default: {
-      appenders: ['console'],
-      level: 'debug'
+      appenders: ['console', 'error', 'info'],
+      level: 'info'
     },
     info: {
       appenders: ['info', 'console'],
@@ -38,26 +38,6 @@ log4js.configure({
   }
 });
 
-// const logger = {
-//   debug: (content: any) => {
-//     const logger = log4js.getLogger();
-//     logger.level = levels.debug;
-//     logger.debug(content);
-//   },
-
-//   info: (content: any) => {
-//     const logger = log4js.getLogger('info');
-//     logger.level = levels.info;
-//     logger.info(content);
-//   },
-
-//   error: (content: any) => {
-//     const logger = log4js.getLogger('error');
-//     logger.level = levels.error;
-//     logger.error(content);
-//   },
-// }
-
-const logger = log4js.getLogger('cheese');
+const logger = log4js.getLogger('logs');
 
 export default logger;

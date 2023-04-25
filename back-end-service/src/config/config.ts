@@ -11,21 +11,23 @@ export const BASE_CONFIG = {
   // process.env.NODE_ENV 生产值
   prodEnv: 'production',
 
+  apiPrefix: '/api',
+
   // 数据库配置-开发环境
   dataBaseOfTest: {
-    dbName: 'test',
-    host: '',
-    user: '',
-    password: '',
+    dbName: 'memorandum',
+    host: '47.97.105.140',
+    user: 'root',
+    password: 'root123',
     port: 3306
   },
 
   // 数据库配置-生产环境
   dataBaseOfProd: {
-    dbName: 'production',
-    host: '',
-    user: '',
-    password: '',
+    dbName: 'memorandum',
+    host: '47.97.105.140',
+    user: 'root',
+    password: 'root123',
     port: 3306
   }
 

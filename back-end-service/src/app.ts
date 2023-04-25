@@ -2,13 +2,15 @@ import Koa from "koa";
 import http from "http";
 import { BASE_CONFIG } from "./config/config";
 import { getIpAddress } from "./utils/utils";
-import { registerMiddleware } from "./middleware/index";
 
 const app = new Koa();
 
 const server = http.createServer(app.callback());
 
+// console.log('dev', process.env.NODE_ENV);
+
 // 注册中间件
+const registerMiddleware = require('./middleware/index.ts')
 registerMiddleware(app);
 
 // 路由中间件

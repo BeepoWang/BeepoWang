@@ -2,9 +2,10 @@ import Application from "koa"
 import bodyParser from "koa-bodyparser"
 import { catchError } from "./response"
 
-const registerRouter = require('./routers');
 
-export const registerMiddleware = (app: Application) => {
+const registerRouter = require('../routers')
+
+const registerMiddleware = (app: Application) => {
   app.use(bodyParser())
   app.use(catchError)
   app.use(registerRouter());

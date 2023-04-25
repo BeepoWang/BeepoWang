@@ -5,7 +5,7 @@
   "author": "wangtao",
   "main": "app.ts",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/app.ts",
+    "dev": "cross-env NODE_ENV=development ts-node-dev --respawn src/app.ts",
     "build": "tsc --noEmit  && node ./dist/src/app.js"
   },
   "keywords": [],

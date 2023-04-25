@@ -1,6 +1,7 @@
 import Koa from 'koa'
 import { errorLog, infoLog } from './logs';
 
+
 export class HttpException extends Error {
   public message: string;
   public errorCode: number;
